@@ -24,7 +24,7 @@ img {
 
 #j8cmPanel {
     border: solid silver thick;
-    border-radius; 10%;
+    border-radius: 5%;
     width: 75%;
     height: auto;
 }
