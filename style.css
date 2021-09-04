@@ -29,6 +29,12 @@ img {
     height: auto;
 }
 
+#BaseballGamePlanner {
+    border: solid silver thin;
+    /* border-radius: 5%; */
+    width: 80%;
+    height: auto;
+}
 h1 {
     font-style: italic;
     font-weight: 100;
