@@ -35,6 +35,13 @@ img {
     height: auto;
 }
 
+#j8cm_mem_ed {
+    border: solid silver thick;
+    border-radius: 5%;
+    width: 80%;
+    height: auto;
+}
+
 #j8cm_al {
     border: solid silver thin;
     /* border-radius: 5%; */
