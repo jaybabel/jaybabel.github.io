@@ -29,6 +29,33 @@ img {
     height: auto;
 }
 
+#j8cm_inst_wd {
+    border: solid silver thin;
+    width: 90%;
+    height: auto;
+}
+
+#j8cm_mem_ed {
+    border: solid silver thick;
+    border-radius: 5%;
+    width: 80%;
+    height: auto;
+}
+
+#j8cm_al {
+    border: solid silver thin;
+    /* border-radius: 5%; */
+    width: 90%;
+    height: auto;
+}
+
+#BaseballGamePlanner {
+    border: solid silver thin;
+    /* border-radius: 5%; */
+    width: 80%;
+    height: auto;
+}
+
 h1 {
     font-style: italic;
     font-weight: 100;
