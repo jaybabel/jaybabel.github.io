@@ -11,6 +11,9 @@ body {
 
 main {
     padding: 10px 0 20px 0;
+    /* display: flexbox;
+    grid-template-rows: 1fr 5fr 5fr 5fr 1fr 5fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr; */
 }
 
 img {
@@ -25,21 +28,33 @@ img {
 #j8cmPanel {
     border: solid silver thick;
     border-radius: 5%;
-    width: 75%;
+    width: 50%;
     height: auto;
+}
+
+#j8cm1 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 #j8cm_inst_wd {
     border: solid silver thin;
-    width: 90%;
+    width: 100%;
     height: auto;
 }
 
 #j8cm_mem_ed {
     border: solid silver thick;
     border-radius: 5%;
-    width: 80%;
+    width: 60%;
     height: auto;
+}
+
+#j8cm2 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 #j8cm_al {
@@ -66,16 +81,23 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h3 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 p {
     line-height: 1.3;
     color: black;
     size: 12pt;
-    /* padding: 0 0 0 0; */
+    text-align: justify;
+    /* padding: 4px 4px 4px 4px; */
 }
 
 footer {
-    border-top: 1px solid rgba(211,211,211, 0.297);    
+    border-top: 2px solid rgba(211,211,211, 0.297);    
     padding: 30px 0 50px 0;
+    background-color:rgba(129, 129, 129, 0.3)
 }
 
 li {
@@ -130,3 +152,14 @@ li {
     font-weight: 400;
 }
 
+#j8cm3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cTravLLC {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#vbProjects {
+    font-family: Arial, Helvetica, sans-serif;
+}
