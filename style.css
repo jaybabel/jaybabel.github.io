@@ -43,6 +43,13 @@ img {
     /* height: auto; */
 }
 
+.projectsDivider {
+    width: 250 px;
+    height: 2px;
+    text-align: center;
+
+}
+
 #j8cmPanel {
     border: solid silver thick;
     border-radius: 5%;
