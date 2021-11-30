@@ -67,6 +67,10 @@ img {
     flex-wrap: nowrap;
 }
 
+.imgLeft div {
+    border: solid black thin;
+}
+
 #j8cm_inst_wd {
     border: solid silver thin;
     width: 100%;
