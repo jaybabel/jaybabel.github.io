@@ -1,85 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <h1>My Software Projects</h1>
+      <h1>My Software Projects</h1>
     </header>
     <nav>
-        <br>
-        <h4>Links</h4><br><br>
-        <a href="./index.html">Resume Page</a><br><br>            
-        <a href="https://github.com/jaybabel" target="_blank">My GitHub Repos</a><br><br>
-        <a href="https://www.youtube.com/channel/UCIGNs_V7qVKOYLUIHZwZUsg" target="_blank">My YouTube Channel</a><br><br>
-        <a href="http://www.linkedin.com/in/jaybabel" target="_blank">LinkedIn Profile</a>
+      <br />
+      <h4>Links</h4>
+      <br /><br />
+      <a href="./index.html">Resume Page</a><br /><br />
+      <a href="https://github.com/jaybabel" target="_blank">My GitHub Repos</a
+      ><br /><br />
+      <a
+        href="https://www.youtube.com/channel/UCIGNs_V7qVKOYLUIHZwZUsg"
+        target="_blank"
+        >My YouTube Channel</a
+      ><br /><br />
+      <a href="http://www.linkedin.com/in/jaybabel" target="_blank"
+        >LinkedIn Profile</a
+      >
     </nav>
     <main>
-        <h2>General Assembly Software Engineering Immersive Projects</h2>
-       <h3>Project 4</h3>
-        <div className="imgLeft">
-            <a href="https://jays-fretboard.surge.sh/" target="_blank">Jay's Fretboard - A Full Stack Development Project</a><br><br>            
-            <img id="imgFretboard" src="./img/JaysFretboard.png" alt="Jays Fretboard" />
-            <p>Backend - Node.js application written in Javascript, HTML, CSS, Postgres SQL database, with multiple APIs</p>
-            <p>Frontend - Interactive React application utilizing backend API calls.  Application image files are stored on Amazon S3.</p>
-        </div>
-        <h3>Project 3</h3>
-        <div id="drinksAhoy">
-            <a href="https://drinks-ahoy.surge.sh/" target="_blank">Drinks Ahoy!! - AReact application utilizing multiple APIs</a>
-            <p>This project is written in React.  The application accesses four different endpoints from www.cocktaildb.com to provide recipes for adult beverages.  Drinks are retrieved either at random, by ingredient, in alphabetical lists, or via user-enterred search.  I partnered with a classmate on this project.  Each of us developed features in our own Git branches and then merged and pushed code to our main repository on GitHub.</p>
-        </div>
-        <h3>Project 2</h3>
-        <div id="gtab">
-            <a href="https://guitar-tab-app.herokuapp.com/tabs/" target="_blank">Guitar Tab Database Application - A Full Stack Development Project</a><br>
-            <p>A Node.js application written in Javascript, HTML, and CSS, with a Postgres SQL database on the backend.</p>
-        </div>
-        <h3>Project 1</h3>
+      <h2>General Assembly Software Engineering Immersive Projects</h2>
+      <h3>Project 4</h3>
+      <div className="imgLeft">
         <div>
-            <a href="https://ecstatic-bell-1867af.netlify.app/" target="_blank">frivolous - My Trivia Game Project</a><br>
-            <p>Written mostly in JavaScript, frivolous is trivia game.  For this project I was mainly interested in working with arrays.  I created three two-dimensional arrays for for trivia categories.  Each element holds a question and an answer.  There are only 15 questions per category.  Each round, ten questions are randomly selected from the chosen category and placed in a questions array.  The answer is randomly placed in one of four elements of an answers array.  The other three elements are pulled at random from the remaining 14 elements in the category.</p>
+          <a href="https://jays-fretboard.surge.sh/" target="_blank"
+            >Jay's Fretboard - A Full Stack Development Project</a
+          ><br /><br />
+          <img
+            id="imgFretboard"
+            src="./img/JaysFretboard.png"
+            alt="Jays Fretboard"
+          />
         </div>
-        <hr className="projectsDivider">
-        <h2>Simpson College Computer Science Project</h2>
-        <h3>The J8CM - My 8-bit computer model</h3>
-        <div className="imgLeft">
-            <img id="j8cmPanel" src="./img/j8cm_short2.gif" alt="j8cm front panel" />
-            <p>While working on my B.A. in Computer Science back in the 1990s, I took a class in computer architecture and design.  As a project for that class, I wrote a computer simulator based on some of the machines I'd worked on in the late 70s and through the 80s.  I named it, Jay's 8-bit Computer Model (J8CM).  The program was written using Borland C 4.0 on a Microsoft Windows computer.  In July, 2021 I decided to port the code (I saved it on a 3.5 inch floppy disk) to gcc on Linux.</p>
+        <div>
+          <p>
+            Backend - Node.js application written in Javascript, HTML, CSS,
+            Postgres SQL database, with multiple APIs
+          </p>
+          <p>
+            Frontend - Interactive React application utilizing backend API
+            calls. Application image files are stored on Amazon S3.
+          </p>
         </div>
-        <h3>J8CM Machine Language</h3>
-        <img id="j8cm_inst_wd" src="./img/j8cm_inst_wd.png" alt="j8cm instruction word format" />
-        <div id="j8cm2">
-                    <p>The J8CM is an accumulator-based model.  As reflected by the instruction format, the J8CM contains 32 instructions, 4 addressing modes, and 2 general-purpose registers.  Instructions and data can be loaded directly into the J8CM memory by setting the appropriate bits.  Programs can be run completely, stepped through each instruction cycle, or at the fetch and execute levelß.</p>
-            <img id="j8cm_mem_ed" src="./img/j8cm_mem_ed.png" alt="j8cm memory editor" />
+      </div>
+      <h3>Project 3</h3>
+      <div id="drinksAhoy">
+        <a href="https://drinks-ahoy.surge.sh/" target="_blank"
+          >Drinks Ahoy!! - AReact application utilizing multiple APIs</a
+        >
+        <p>
+          This project is written in React. The application accesses four
+          different endpoints from www.cocktaildb.com to provide recipes for
+          adult beverages. Drinks are retrieved either at random, by ingredient,
+          in alphabetical lists, or via user-enterred search. I partnered with a
+          classmate on this project. Each of us developed features in our own
+          Git branches and then merged and pushed code to our main repository on
+          GitHub.
+        </p>
+      </div>
+      <h3>Project 2</h3>
+      <div id="gtab">
+        <a href="https://guitar-tab-app.herokuapp.com/tabs/" target="_blank"
+          >Guitar Tab Database Application - A Full Stack Development Project</a
+        ><br />
+        <p>
+          A Node.js application written in Javascript, HTML, and CSS, with a
+          Postgres SQL database on the backend.
+        </p>
+      </div>
+      <h3>Project 1</h3>
+      <div>
+        <a href="https://ecstatic-bell-1867af.netlify.app/" target="_blank"
+          >frivolous - My Trivia Game Project</a
+        ><br />
+        <p>
+          Written mostly in JavaScript, frivolous is trivia game. For this
+          project I was mainly interested in working with arrays. I created
+          three two-dimensional arrays for for trivia categories. Each element
+          holds a question and an answer. There are only 15 questions per
+          category. Each round, ten questions are randomly selected from the
+          chosen category and placed in a questions array. The answer is
+          randomly placed in one of four elements of an answers array. The other
+          three elements are pulled at random from the remaining 14 elements in
+          the category.
+        </p>
+      </div>
+      <hr className="projectsDivider" />
+      <h2>Simpson College Computer Science Project</h2>
+      <h3>The J8CM - My 8-bit computer model</h3>
+      <div className="imgLeft">
+        <div>
+          <img
+            id="j8cmPanel"
+            src="./img/j8cm_short2.gif"
+            alt="j8cm front panel"
+          />
         </div>
-        <h3>J8CM Assembly Language</h3>
-        <div id="j8cm3">
-            <img id="j8cm_al" src="./img/j8cm_al_2.png" alt="j8cm assembly language" />
-            <br>
+        <div>
+          <p>
+            While working on my B.A. in Computer Science back in the 1990s, I
+            took a class in computer architecture and design. As a project for
+            that class, I wrote a computer simulator based on some of the
+            machines I'd worked on in the late 70s and through the 80s. I named
+            it, Jay's 8-bit Computer Model (J8CM). The program was written using
+            Borland C 4.0 on a Microsoft Windows computer. In July, 2021 I
+            decided to port the code (I saved it on a 3.5 inch floppy disk) to
+            gcc on Linux.
+          </p>
         </div>
-        <hr className="projectsDivider">
-        <h2>Classic Travels LLC Website</h2>
-        <div id="cTravLLC">    
-            <a href="http://www.classictravelsllc.com" target="_blank">Classic Travels LLC</a><br>
-            <p>A website for my mother-in-law's travel business.  As the family IT guy, I setup the website.</p>
-        </div>
-        <hr className="projectsDivider">
-        <h2>Visual Basic for MS Excel</h2>
-        <div id="vbProjects">
-            <p>The first semester of my MBA program included a virtual course in Visual Basic for Microsoft Excel.  My final project in that class was a program I could use to manage Little League baseball games.  For me, it was important to give the boys opportunities to play different posisitions.  I also wanted to give them approximately the same number of at-bats through the season while maintaining a batting order that produced the most runs.</p>
-            <img id="BaseballGamePlanner" src="./img/BaseballGamePlanner_1.png" alt="Baseball Game Planner Excel Spreadsheet picture" />
-            <p>At John Deere I developed a few tools in VBA.  When we retired a system for the Torrance office, I exported three tables from MS SQL and created an Excel program to search the tables and provide sales information from the old system.</p>
-            <p>For the Waterloo location, I created Excel tools to manage asset location standards and Active Directory group memebership.</p>
-        </div>            
-
+      </div>
+      <h3>J8CM Machine Language</h3>
+      <img
+        id="j8cm_inst_wd"
+        src="./img/j8cm_inst_wd.png"
+        alt="j8cm instruction word format"
+      />
+      <div id="j8cm2">
+        <p>
+          The J8CM is an accumulator-based model. As reflected by the
+          instruction format, the J8CM contains 32 instructions, 4 addressing
+          modes, and 2 general-purpose registers. Instructions and data can be
+          loaded directly into the J8CM memory by setting the appropriate bits.
+          Programs can be run completely, stepped through each instruction
+          cycle, or at the fetch and execute levelß.
+        </p>
+        <img
+          id="j8cm_mem_ed"
+          src="./img/j8cm_mem_ed.png"
+          alt="j8cm memory editor"
+        />
+      </div>
+      <h3>J8CM Assembly Language</h3>
+      <div id="j8cm3">
+        <img
+          id="j8cm_al"
+          src="./img/j8cm_al_2.png"
+          alt="j8cm assembly language"
+        />
+        <br />
+      </div>
+      <hr className="projectsDivider" />
+      <h2>Classic Travels LLC Website</h2>
+      <div id="cTravLLC">
+        <a href="http://www.classictravelsllc.com" target="_blank"
+          >Classic Travels LLC</a
+        ><br />
+        <p>
+          A website for my mother-in-law's travel business. As the family IT
+          guy, I setup the website.
+        </p>
+      </div>
+      <hr className="projectsDivider" />
+      <h2>Visual Basic for MS Excel</h2>
+      <div id="vbProjects">
+        <p>
+          The first semester of my MBA program included a virtual course in
+          Visual Basic for Microsoft Excel. My final project in that class was a
+          program I could use to manage Little League baseball games. For me, it
+          was important to give the boys opportunities to play different
+          posisitions. I also wanted to give them approximately the same number
+          of at-bats through the season while maintaining a batting order that
+          produced the most runs.
+        </p>
+        <img
+          id="BaseballGamePlanner"
+          src="./img/BaseballGamePlanner_1.png"
+          alt="Baseball Game Planner Excel Spreadsheet picture"
+        />
+        <p>
+          At John Deere I developed a few tools in VBA. When we retired a system
+          for the Torrance office, I exported three tables from MS SQL and
+          created an Excel program to search the tables and provide sales
+          information from the old system.
+        </p>
+        <p>
+          For the Waterloo location, I created Excel tools to manage asset
+          location standards and Active Directory group memebership.
+        </p>
+      </div>
     </main>
     <footer>
-        <a href="./index.html">Jay Babel Homepage</a>
+      <a href="./index.html">Jay Babel Homepage</a>
     </footer>
-
-</body>
+  </body>
 </html>
