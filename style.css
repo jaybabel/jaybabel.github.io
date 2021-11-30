@@ -46,8 +46,9 @@ main {
 }
 
 #imgFretboard {
-    width: 50%;
-    height: auto;
+    padding-top: 30px;
+    width: 45%;
+    height: 45%;
 }
 
 #divDrinksAhoy {
@@ -57,8 +58,10 @@ main {
 }
 
 #imgDrinksAhoy {
-    width: 50%;
-    height: auto;
+    padding-top: 25px;
+    padding-right: 10px;
+    width: 45%;
+    height: 45%;
 }
 
 #j8cmPanel {
