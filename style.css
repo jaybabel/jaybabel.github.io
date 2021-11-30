@@ -63,7 +63,7 @@ img {
 
 .imgLeft {
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
+    display: inline-flex;
     flex-wrap: nowrap;
 }
 
