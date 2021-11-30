@@ -2,14 +2,13 @@ body {
     background: url(./img/background1.jpg) fixed; 
     color:black;
     border: 2px solid rgba(211,211,211, 0.297);
-    max-width: 900px;
+    max-width: 1250px;
     margin: 50px auto;
     padding: 0 30px;
     text-align: center;
     display: grid;
     grid-template-columns: auto, 100px;
     grid-template-rows: 60px, auto, 60px;    
-    /* min-height: 100vh; */
 }
 
 header {
@@ -34,22 +33,30 @@ main {
     grid-row: 2;
 }
 
-img {
-    border: solid grey thin;
-    /* padding: 3px; */
-    /* float: right; */
-    margin: 0 0 5px 10px;
-    /* width: 75%; */
-    /* height: auto; */
-}
-
 .projectsDivider {
     width: 150 px;
     height: 2px;
     text-align: center;
 }
 
+#divFretboard {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 #imgFretboard {
+    width: 50%;
+    height: auto;
+}
+
+#divDrinksAhoy {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#imgDrinksAhoy {
     width: 50%;
     height: auto;
 }
@@ -61,10 +68,10 @@ img {
     height: auto;
 }
 
-.imgLeft {
+#j8cm1 {
     font-family: Arial, Helvetica, sans-serif;
-    display: inline-flex;
-    border: solid black 2px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .imgLeft div {
@@ -92,14 +99,12 @@ img {
 
 #j8cm_al {
     border: solid silver thin;
-    /* border-radius: 5%; */
     width: 90%;
     height: auto;
 }
 
 #BaseballGamePlanner {
     border: solid silver thin;
-    /* border-radius: 5%; */
     width: 80%;
     height: auto;
 }
