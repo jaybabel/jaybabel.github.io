@@ -120,7 +120,7 @@ main {
 }
 
 #j8cm_mem_ed {
-    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
     border: solid silver thick;
     border-radius: 5%;
     width: 55%;
