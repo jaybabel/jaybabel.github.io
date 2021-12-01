@@ -116,14 +116,16 @@ main {
 
 #j8cm_inst_wd {
     border: solid silver thin;
-    width: 100%;
+    width: 90%;
+    padding: 0px 10px 0px 10px;
     height: auto;
 }
 
 #j8cm_mem_ed {
+    padding: 0px 10px 0px 10px;
     border: solid silver thick;
     border-radius: 5%;
-    width: 60%;
+    width: 55%;
     height: auto;
 }
 
