@@ -140,6 +140,7 @@ main {
 }
 
 #j8cm_al {
+    margin-left: 10px;
     border: solid silver thin;
     width: 50%;
     height: auto;
