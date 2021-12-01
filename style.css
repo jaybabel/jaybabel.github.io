@@ -48,6 +48,7 @@ main {
 #imgFretboard {
     padding-top: 30px;
     padding-left: 10px;
+    padding-right: 10px;
     width: 45%;
     height: 45%;
 }
