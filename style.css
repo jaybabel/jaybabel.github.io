@@ -57,7 +57,14 @@ main {
     flex-wrap: nowrap;
 }
 
-#imgDrinksAhoy {
+#imgDrinksAhoy1 {
+    padding-top: 25px;
+    padding-right: 10px;
+    width: 45%;
+    height: 45%;
+}
+
+#imgDrinksAhoy2 {
     padding-top: 25px;
     padding-right: 10px;
     width: 45%;
@@ -127,9 +134,15 @@ main {
     flex-wrap: nowrap;
 }
 
+#j8cm3 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 #j8cm_al {
     border: solid silver thin;
-    width: 90%;
+    width: 50%;
     height: auto;
 }
 
