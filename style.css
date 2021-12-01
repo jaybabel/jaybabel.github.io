@@ -77,6 +77,20 @@ main {
     height: 50%;
 }
 
+#divFrivolous {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#imgFrivolous {
+    padding-top: 25px;
+    padding-right: 10px;
+    width: 45%;
+    height: 50%;
+}
+
+
 #j8cmPanel {
     border: solid silver thick;
     border-radius: 5%;
