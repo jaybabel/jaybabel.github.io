@@ -19,8 +19,6 @@ header {
     grid-template-columns: 300px auto 300px;
     grid-template-rows: 125px 125px;
     justify-content: stretch;
-    border-style:solid;
-    border-width: 2px; 
 }
 
 #banner {
@@ -29,8 +27,9 @@ header {
 }
 
 #pageTitle {
-    border-style:solid;
-    border-width: 2px;
+    text-align: left;
+    padding-top:25px;
+    padding-left: 25px;
 }
 
 #myLinks {
@@ -40,8 +39,6 @@ header {
     display: inline;
     text-align: center;
     padding-top: 50px;
-    border-style:solid;
-    border-width: 2px; 
     width: 500px;
     background-color:rgba(190, 190, 190, 0.2);
 }
@@ -191,7 +188,7 @@ main {
 
 h1 {
     font-style: italic;
-    font-weight: 200;
+    font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
 }
 
