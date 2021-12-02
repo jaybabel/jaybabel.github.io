@@ -17,7 +17,6 @@ body {
 header {
     grid-row: 1;
     grid-column: 2;
-
 }
 
 #myLinks {
@@ -168,6 +167,7 @@ main {
 h1 {
     font-style: italic;
     font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -186,6 +186,7 @@ p {
     size: 12pt;
     text-align: left;
     padding: 10px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
