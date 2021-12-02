@@ -23,7 +23,7 @@ header {
 #myLinks {
     padding: 10px 0 20px 0;
     list-style: none;
-    display: inline;
+    display: block;
     text-align: center;
     border:black;
     background-color:rgba(190, 190, 190, 0.2);
