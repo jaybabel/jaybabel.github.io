@@ -29,7 +29,7 @@ header {
     background-color:rgba(190, 190, 190, 0.2);
 }
 
-#myLinks a {
+#myLinks li a {
     padding: 10px;
     list-style: none;
     display: block;
