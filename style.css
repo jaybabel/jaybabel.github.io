@@ -40,7 +40,7 @@ header {
 #myLinks li a {
     padding: 10px;
     list-style: none;
-    display: inline-flex;
+    display: inline-block;
     text-align: center;
 }
 
