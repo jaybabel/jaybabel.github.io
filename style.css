@@ -12,7 +12,7 @@ body {
     display: grid;
     grid-template-columns: auto, 100px;
     grid-template-rows: 60px, auto, 60px;
-    border:black;
+    border-style:solid;
     border-width: 2px;    
 }
 
