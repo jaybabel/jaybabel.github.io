@@ -20,12 +20,16 @@ header {
     grid-template-rows: 125px 125px;
     grid-auto-flow: row;
     justify-content: stretch;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
 }
 
 #banner {
     grid-column: 1;
     grid-row: 1 /2;
+}
+
+#myPicture {
+    border-radius: 5%;
 }
 
 #pageTitle {
