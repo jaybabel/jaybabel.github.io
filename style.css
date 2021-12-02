@@ -18,6 +18,7 @@ header {
     display: grid;
     grid-template-columns: 300px auto 300px;
     grid-template-rows: 125px 125px;
+    justify-content: space-between;
     border-style:solid;
     border-width: 2px; 
 }
