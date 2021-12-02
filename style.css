@@ -29,7 +29,7 @@ header {
 #myLinks {
     padding: 10px 0 20px 0;
     list-style: none;
-    display: block;
+    display: inline;
     text-align: center;
     border-style:solid;
     border-width: 2px; 
