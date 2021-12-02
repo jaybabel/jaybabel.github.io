@@ -29,6 +29,13 @@ header {
     background-color:rgba(190, 190, 190, 0.2);
 }
 
+#myLinks a {
+    padding: 10px 0 20px 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+}
+
 main {
     background-color:rgba(225, 225, 225, 0.2);
     padding: 10px 0 20px 0;
