@@ -1,5 +1,6 @@
 body {
     background: url(./img/whitetech1.jpg) no-repeat fixed;
+    background-size: cover;
     color:black;
     border: 2px solid rgba(211,211,211, 0.297);
     max-width: 1250px;
