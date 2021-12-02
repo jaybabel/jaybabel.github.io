@@ -15,15 +15,18 @@ body {
 }
 
 header {
-    display: inline-flex;
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    grid-template-rows: 50px 50px;
     border-style:solid;
     border-width: 2px; 
 }
 
 #banner {
+    grid-column: 1;
+    grid-row: 1 /2;
     border-style:solid;
     border-width: 2px;
-    width: 300px; 
 }
 
 #pageTitle {
@@ -32,6 +35,8 @@ header {
 }
 
 #myLinks {
+    grid-column: 3;
+    grid-row: 2;
     list-style: none;
     display: inline;
     text-align: center;
