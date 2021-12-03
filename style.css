@@ -197,6 +197,18 @@ main {
     height: auto;
 }
 
+#cTravelLLC {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#classicTravels {
+    margin-right: 10px;
+    width: 45%;
+    height: auto;
+}
+
 #BaseballGamePlanner {
     border: solid silver thin;
     width: 80%;
